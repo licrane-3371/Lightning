@@ -27,8 +27,8 @@ void draw()
 }
 void mousePressed()
 {
-  startX = 150;
-  startY = 20;
+  startX = mouseX;
+  startY = mouseY;
   endX = (int)Math.random()*300;
   endY = (int)Math.random()*300;
   resetButton += 1;
